@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="301" max="32767" attributes="0"/>
+              <Component id="backButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="nextButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cancelButton" linkSize="1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Separator" pref="574" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="mainPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="mainPanel" pref="343" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Separator" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cancelButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nextButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="backButton" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="generalPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="generalPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="divisionesScrollPane" alignment="1" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo1Separator" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo1Label" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="unidadTiempoLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="unidadTiempoComboBox" pref="108" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="numeroHabLabel" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="numeroHabSpinner" pref="215" max="32767" attributes="1"/>
+                          </Group>
+                          <Component id="nombrePobTextField" alignment="1" pref="574" max="32767" attributes="1"/>
+                          <Component id="nombrePobLabel" alignment="0" min="-2" max="-2" attributes="1"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="numeroDivLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="numeroDivSpinner" min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo1Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo1Separator" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="nombrePobLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nombrePobTextField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="numeroHabLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="numeroHabSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="unidadTiempoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="unidadTiempoComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="numeroDivLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="numeroDivSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="divisionesScrollPane" pref="133" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="titulo1Label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="titulo1Label.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="titulo1Label.text"/>
+                <Property name="name" type="java.lang.String" value="titulo1Label" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="titulo1Separator">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="titulo1Separator" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nombrePobLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="nombrePobLabel.text"/>
+                <Property name="name" type="java.lang.String" value="nombrePobLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nombrePobTextField">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="nombrePobTextField.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="nombrePobTextField" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="numeroHabLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="numeroHabLabel.text"/>
+                <Property name="name" type="java.lang.String" value="numeroHabLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="numeroHabSpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="numeroHabSpinner.font"/>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="0" minimum="0" numberType="java.lang.Long" stepSize="1" type="number"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="numeroHabSpinner.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="numeroHabSpinner" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="unidadTiempoLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="unidadTiempoLabel.text"/>
+                <Property name="name" type="java.lang.String" value="unidadTiempoLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="unidadTiempoComboBox">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="unidadTiempoComboBox.background"/>
+                <Property name="font" type="java.awt.Font" resourceKey="unidadTiempoComboBox.font"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="this.modeloDesplegablePaso1" type="code"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="unidadTiempoComboBox" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="numeroDivLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="numeroDivLabel.text"/>
+                <Property name="name" type="java.lang.String" value="numeroDivLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="numeroDivSpinner">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="numeroDivSpinner.font"/>
+                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                  <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="numeroDivSpinner" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="numeroDivSpinnerStateChanged"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="divisionesScrollPane">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="divisionesScrollPane" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="divisionesTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="this.modeloTablaPaso1" type="code"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="divisionesTable" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="categoriasPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="categoriasPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="categoriasScrollPane" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo2Separator" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo2Label" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="descripcionTextPane" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="descripcionButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="categoriasTextPane" alignment="0" pref="574" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo2Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo2Separator" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="categoriasTextPane" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="categoriasScrollPane" pref="182" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="descripcionTextPane" min="-2" max="-2" attributes="0"/>
+                          <Component id="descripcionButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="titulo2Label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="titulo2Label.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="titulo2Label.text"/>
+                <Property name="name" type="java.lang.String" value="titulo2Label" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="titulo2Separator">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="titulo2Separator" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextPane" name="categoriasTextPane">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="this.getBackground()" type="code"/>
+                </Property>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" resourceKey="categoriasTextPane.text"/>
+                <Property name="name" type="java.lang.String" value="categoriasTextPane" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="categoriasScrollPane">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="categoriasScrollPane" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="categoriasTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="this.modeloTablaPaso2" type="code"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="categoriasTable" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JTextPane" name="descripcionTextPane">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="this.getBackground()" type="code"/>
+                </Property>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" resourceKey="descripcionTextPane.text"/>
+                <Property name="name" type="java.lang.String" value="descripcionTextPane" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="descripcionButton">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="delphsim.NuevoModelo" id="anadirDescripcionCat" methodName="anadirDescripcionCat"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="descripcionButton" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="fijarDivisionesPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="fijarDivisionesPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="3"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="aclaracionTextPane" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo3Separator" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo3Label" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="divFilasLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="divFilasScrollPane" linkSize="9" min="-2" pref="259" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="divColumLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="divColumScrollPane" linkSize="9" min="-2" pref="281" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" max="-2" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo3Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo3Separator" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="aclaracionTextPane" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="divFilasLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="divColumLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="divColumScrollPane" pref="153" max="32767" attributes="1"/>
+                          <Component id="divFilasScrollPane" alignment="0" pref="153" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="titulo3Label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="titulo3Label.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="titulo3Label.text"/>
+                <Property name="name" type="java.lang.String" value="titulo3Label" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="titulo3Separator">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="titulo3Separator" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextPane" name="aclaracionTextPane">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="this.getBackground()" type="code"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="text" type="java.lang.String" resourceKey="aclaracionTextPane.text"/>
+                <Property name="name" type="java.lang.String" value="aclaracionTextPane" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="divFilasLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="divFilasLabel.text"/>
+                <Property name="name" type="java.lang.String" value="divFilasLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="divFilasScrollPane">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="divFilasScrollPane" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="divFilasList">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="this.listaFilasPaso3" type="code"/>
+                    </Property>
+                    <Property name="selectionMode" type="int" value="0"/>
+                    <Property name="name" type="java.lang.String" value="divFilasList" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="divColumLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="divColumLabel.text"/>
+                <Property name="name" type="java.lang.String" value="divColumLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="divColumScrollPane">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="divColumScrollPane" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="divColumList">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="this.listaColumnasPaso3" type="code"/>
+                    </Property>
+                    <Property name="selectionMode" type="int" value="0"/>
+                    <Property name="name" type="java.lang.String" value="divColumList" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="compartimentosPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="compartimentosPanel" noResource="true"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="4"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="titulo4Separator" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="titulo4Label" alignment="0" pref="574" max="32767" attributes="0"/>
+                          <Component id="numHabCompLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="numHabCompNotaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="izquierdaButton" linkSize="7" min="-2" pref="59" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="compartimentosScrollPane" pref="432" max="32767" attributes="1"/>
+                                  <Component id="compartimentosLabel" alignment="0" pref="432" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="derechaButton" linkSize="7" min="-2" pref="59" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo4Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="titulo4Separator" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="numHabCompLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="numHabCompNotaLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="compartimentosLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="derechaButton" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <Component id="izquierdaButton" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <Component id="compartimentosScrollPane" alignment="0" pref="200" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="titulo4Label">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="titulo4Label.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="titulo4Label.text"/>
+                <Property name="name" type="java.lang.String" value="titulo4Label" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="titulo4Separator">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="titulo4Separator" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="numHabCompLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="numHabCompLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="numHabCompLabel.text"/>
+                <Property name="name" type="java.lang.String" value="numHabCompLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="numHabCompNotaLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="numHabCompNotaLabel.font"/>
+                <Property name="text" type="java.lang.String" resourceKey="numHabCompNotaLabel.text"/>
+                <Property name="name" type="java.lang.String" value="numHabCompNotaLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="compartimentosLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="compartimentosLabel.font"/>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" resourceKey="compartimentosLabel.text"/>
+                <Property name="name" type="java.lang.String" value="compartimentosLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="compartimentosScrollPane">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="compartimentosScrollPane" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="compartimentosTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="0"/>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="compartimentosTable" noResource="true"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="derechaButton">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="delphsim.NuevoModelo" id="tablaSiguientePaso4" methodName="tablaSiguientePaso4"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="derechaButton.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="derechaButton" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="izquierdaButton">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="delphsim.NuevoModelo" id="tablaAnteriorPaso4" methodName="tablaAnteriorPaso4"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="izquierdaButton.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="izquierdaButton" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSeparator" name="Separator">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="Separator" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="delphsim.NuevoModelo" id="botonCancelar" methodName="botonCancelar"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cancelButton" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="nextButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="delphsim.NuevoModelo" id="botonSiguiente" methodName="botonSiguiente"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="nextButton" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="backButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="delphsim.NuevoModelo" id="botonAnterior" methodName="botonAnterior"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="backButton" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
